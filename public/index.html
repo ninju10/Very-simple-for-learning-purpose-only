@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Luminous Landing</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <nav class="topbar">
+        <div class="brand">Luminous</div>
+        <div class="nav-links">
+          <a href="#features">Features</a>
+          <a href="#status">Status</a>
+          <a href="#footer">Contact</a>
+        </div>
+      </nav>
+
+      <header class="hero-panel">
+        <div class="hero-copy">
+          <p class="eyebrow">Crafted for modern teams</p>
+          <h1>Beautiful landing pages with a light, dependable backend.</h1>
+          <p class="hero-text">
+            A soft visual system, purposeful spacing, and a clean Node.js backend make this page feel alive without being loud.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#features">See what’s inside</a>
+            <a class="btn btn-secondary" href="#status">Check health</a>
+          </div>
+          <div class="hero-notes">
+            <span>Express API</span>
+            <span>Responsive design</span>
+            <span>Docker-ready</span>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="visual-card card-top">
+            <div class="visual-header">
+              <span></span><span></span><span></span>
+            </div>
+            <div class="visual-body">
+              <div class="label-pill">Live preview</div>
+              <h2>Warm backend, cool UI.</h2>
+              <p>Instantly refresh the status panel and keep the interface calm and elegant.</p>
+            </div>
+          </div>
+          <div class="visual-card card-bottom">
+            <div class="stats-row">
+              <div>
+                <strong>38%</strong>
+                <small>time saved</small>
+              </div>
+              <div>
+                <strong>97</strong>
+                <small>Beautiful colors</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <main>
+        <section id="features" class="section features-section">
+          <div class="section-heading">
+            <small>Designed to feel personal</small>
+            <h2>Components that look refined and intentional.</h2>
+          </div>
+          <div class="section-grid">
+            <article class="feature-card">
+              <div class="feature-badge">01</div>
+              <h3>Soft motion</h3>
+              <p>Hover effects and gentle elevation make the interface feel tactile and responsive.</p>
+            </article>
+            <article class="feature-card">
+              <div class="feature-badge">02</div>
+              <h3>Readable copy</h3>
+              <p>Clear headings, generous line length, and calm color contrast prioritize usability.</p>
+            </article>
+            <article class="feature-card">
+              <div class="feature-badge">03</div>
+              <h3>Polished layout</h3>
+              <p>A balanced composition with overlapping panels and purposeful whitespace.</p>
+            </article>
+          </div>
+        </section>
+
+        <section id="status" class="section status-section">
+          <div class="status-panel">
+            <div class="status-intro">
+              <small>Backend health</small>
+              <h2>Connects to the API and reports status instantly.</h2>
+            </div>
+            <div class="status-card" id="statusCard">
+              <p class="status-label">Loading status…</p>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="footer-bar" id="footer">
+        <div>
+          <p class="footer-title">Need a polished landing experience?</p>
+          <p>Use this starter as a foundation for a clean product page or quick app showcase.</p>
+        </div>
+        <div class="footer-links">
+          <a href="#top">Back to top</a>
+          <a href="#status">Status</a>
+        </div>
+      </footer>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>

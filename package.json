@@ -1,0 +1,15 @@
+{
+  "name": "luminous-landing",
+  "version": "1.0.0",
+  "description": "A gorgeous full-stack landing app with a light backend and beautiful UI.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.4"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
